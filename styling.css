@@ -271,6 +271,9 @@ header .hero h1 {
 
 .services-cards {
   display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 2em;
 }
 
@@ -287,12 +290,16 @@ section.news h2 {
 }
 
 .news .text {
-  padding: 20px 15px;
+  /* padding: 20px 15px; */
+  padding-inline: 0.8rem;
+  padding-top: 0.3rem;
+  padding-bottom: 1rem;
 }
 
 .news .services-card img {
   margin: 0;
   width: 280px;
+  height: 190px;
 }
 .news a:hover {
   color: #215276;
